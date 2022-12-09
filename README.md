@@ -10,4 +10,4 @@ and prints the offset, string and cross-references.
 
 ## License
 
-This plugin is released under an [MIT license](./license).
+This plugin is released under an [BSD 2 license](./license).
