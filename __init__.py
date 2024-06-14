@@ -1,5 +1,6 @@
 import binaryninja as binja
 from binaryninja.plugin import PluginCommand
+from binaryninja.enums import FunctionAnalysisSkipOverride
 
 DEBUG = True
 
