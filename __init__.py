@@ -19,7 +19,7 @@ def build_string_table(bv, db=None):
 	for func in bv.functions:
 		fix_analysis(bv, func)
 		for block in func.low_level_il.basic_blocks:
-			for instr in block
+			for instr in block:
 				# if isinstance(instr, LowLevelILInstruction):
 				#    if instr.operation != binja.LowLevelILOperation.LLIL_SET_REG:
 				#        continue
